@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;       
+}
+
+
+
+/* Estilo para tablas */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.black{
+    background-color: #000;
+}
+
+#left-button {
+    position: fixed;
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#left-button:hover {
+    background-color: #0056b3; 
+}
+
+#stop-button{
+    position: fixed;
+    left: 10px; 
+    top: 55%; 
+    transform: translateY(-50%); 
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stop-button:hover {
+    background-color: #fc2525; 
+}
