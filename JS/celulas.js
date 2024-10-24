@@ -71,15 +71,16 @@ function evolucion(coor) {
         new Array(coor[0].length).fill(false)
     );
 
+    let x = evo.length
+    let y = evo[0].length
     for (let i = 0; i < evo.length; i++) {
 
         evo[0][i] = false;
-        evo[29][i] = false;
+        evo[x-1][i] = false;
         evo[i][0] = false;
-        evo[i][29] = false;
+        evo[i][y-1] = false;
     }
 
-    let cont = 0
     for (let i = 1; i < coor.length-1; i++) {
         for (let j = 1; j < coor[0].length-1; j++) {
 
